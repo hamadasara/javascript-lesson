@@ -6,3 +6,9 @@ let nickname = 'さら';
 let age = 23;
 
 console.log('私のニックネームは' + nickname + 'です。' + '年齢は' + age + 'です。');
+
+// ---Q2---
+// 変数言語に JavaScript, PHP, Ruby, Python, Go の 5 つの値を持つ配列を代入し、その中から JavaScript, Python を取得し、テンプレートリテラルを用いて以下のようにコンソールに出力してください。
+let code = ['Javascript', 'PHP', 'Rudy', 'Python', 'Go'];
+
+console.log(`私の好きな言語は${code[0]}です。次は${code[3]}を勉強してみたいです。`)

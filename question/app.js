@@ -54,3 +54,18 @@ let toAge = playerList[0].age + playerList[1].age + playerList[2].age;
 let averageAge = toAge / playerList.length;
 
 console.log(averageAge);
+
+// ---Q6---
+// Hello とコンソールに出力する関数 SayHello を定義し、実行してください。
+function SayHello() {
+    console.log('Hello');
+}
+
+SayHello();
+
+// 変数 SayWorld に World とコンソールに出力する無名関数を代入し、実行してください。
+let SeyWord = function () {
+    console.log('Wold');
+}
+
+SeyWord();

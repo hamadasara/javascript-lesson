@@ -69,3 +69,15 @@ let SeyWord = function () {
 }
 
 SeyWord();
+
+// ---Q7---
+// Q3 で定義した変数 user に '2000-09-27' を値とする誕生日プロパティを追加してください。
+user.birthday = '2000-09-27';
+console.log(user);
+
+// Q3 で定義した変数 user に Hello! とコンソールに出力するメソッド SayHello を追加し、実行してください。
+user.SayHello = function () {
+    console.log('Hello');
+}
+
+user.SayHello();

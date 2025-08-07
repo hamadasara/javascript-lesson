@@ -12,3 +12,15 @@ console.log('私のニックネームは' + nickname + 'です。' + '年齢は'
 let code = ['Javascript', 'PHP', 'Rudy', 'Python', 'Go'];
 
 console.log(`私の好きな言語は${code[0]}です。次は${code[3]}を勉強してみたいです。`)
+
+// ---Q3---
+// 下記の変数 user を使用し 26 をコンソールに出力してください。
+
+let user = {
+    name: 'John',
+    age: 26,
+    bloodType: 'A',
+    favorite: 'card',
+};
+
+console.log(user.age);

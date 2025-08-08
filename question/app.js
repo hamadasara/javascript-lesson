@@ -81,3 +81,35 @@ user.SayHello = function () {
 }
 
 user.SayHello();
+
+
+// ---Q8---
+let calc = {};
+
+// 和
+calc.add = function (x, y) {
+    console.log(x + y);
+}
+
+calc.add(3, 4);
+
+// 差
+calc.difference = function (x, y) {
+    console.log(x - y);
+}
+
+calc.difference(16, 6);
+
+// 積
+calc.product = function (x, y) {
+    console.log(x * y);
+}
+
+calc.product(7, 7);
+
+// 商
+calc.quotient = function (x, y) {
+    console.log(x / y);
+}
+
+calc.quotient(10, 2);

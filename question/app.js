@@ -164,3 +164,14 @@ if (num > 0) {
 } else if (num === 0) {
     console.log('num is 0');
 }
+
+// ---Q4---
+// 変数 numbers に空の配列を代入した後、0 ~ 99 までの数字を変数 
+// numbers に全て追加し、値が追加された状態の変数 numbers をコンソールに出力してください
+let numbers = [];
+
+for (let i = 0; i < 100; i++) {
+    numbers.push(i);
+}
+
+console.log(numbers);

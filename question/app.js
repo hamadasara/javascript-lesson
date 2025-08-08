@@ -152,3 +152,15 @@ console.log(random);
 setTimeout(function () {
     console.log("Hello Wold");
 }, 3000);
+
+// ---Q3---
+// 変数 num に 任意の数値を代入し、下記条件のもと文字列をコンソールに出し分ける処理を作成してください。
+let num = 0;
+
+if (num > 0) {
+    console.log('num is greater than 0');
+} else if (num < 0) {
+    console.log('num is less than 0');
+} else if (num === 0) {
+    console.log('num is 0');
+}

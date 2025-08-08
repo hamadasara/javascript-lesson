@@ -123,3 +123,17 @@ function remainder(x, y) {
 
 let result = remainder(5, 3);
 console.log(5 + 'を' + 3 + 'で割った余りは' + result + 'です。');
+
+// ---Q10---
+// 下記の console.log(x); においてコンソールに 1 が出力されることはなく、
+// x is not defined（変数 x が定義されていない）というエラーが出力されます。
+// その理由を以下 2 つの単語を使用し app.js にコメントアウトで回答してください。
+
+function foo() {
+    let x = 1;
+}
+console.log(x);
+
+// -理由-
+// console.logで指定した変数xは、foo関数の中だけのスコープである。
+// そのため、関数の外でconsole.logを指示しても参照されす、エラーが出てしまう。

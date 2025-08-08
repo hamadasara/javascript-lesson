@@ -175,3 +175,23 @@ for (let i = 0; i < 100; i++) {
 }
 
 console.log(numbers);
+
+// ---Q5---
+// 以下の変数 mixed から 要素を一つずつ取り出し、
+// 下記条件のもと文字列をコンソールに出し分ける処理を作成してください。
+let mixed = [4, '2', 5, '8', '9', 0, 1];
+
+for (let i = 0; i < mixed.length; i++) {
+    let item = mixed[i];
+
+    if (typeof item === 'number') {
+        if (item % 2 === 0) {
+            console.log('even');
+        } else {
+            console.log('odd');
+        }
+    } else {
+        console.log('not number');
+    }
+}
+

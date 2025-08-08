@@ -146,3 +146,9 @@ console.log(5 + 'を' + 3 + 'で割った余りは' + result + 'です。');
 
 let random = Math.floor(Math.random() * 10);
 console.log(random);
+
+// ---Q2---
+// 関数 setTimeout を使用し、3 秒後に以下のようにコンソールに出力してください。
+setTimeout(function () {
+    console.log("Hello Wold");
+}, 3000);

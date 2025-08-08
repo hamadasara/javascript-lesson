@@ -113,3 +113,13 @@ calc.quotient = function (x, y) {
 }
 
 calc.quotient(10, 2);
+
+// ---Q9---
+// 2つの引数 x,yを受け取り、xをyで割った剰余を返り値とする関数remainderを定義し、
+// 5と3を引数に渡して実行した返り値を用いて文字列連結で以下のようにコンソールに出力してください。
+function remainder(x, y) {
+    return x % y;
+}
+
+let result = remainder(5, 3);
+console.log(5 + 'を' + 3 + 'で割った余りは' + result + 'です。');

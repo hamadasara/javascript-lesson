@@ -129,11 +129,20 @@ console.log(5 + 'を' + 3 + 'で割った余りは' + result + 'です。');
 // x is not defined（変数 x が定義されていない）というエラーが出力されます。
 // その理由を以下 2 つの単語を使用し app.js にコメントアウトで回答してください。
 
-function foo() {
-    let x = 1;
-}
-console.log(x);
+// function foo() {
+//     let x = 1;
+// }
+// console.log(x);
 
 // -理由-
 // console.logで指定した変数xは、foo関数の中だけのスコープである。
 // そのため、関数の外でconsole.logを指示しても参照されす、エラーが出てしまう。
+
+
+// -JavaScript応用編問題
+
+// ---Q1---
+// 標準組み込みオブジェクト Math を使用し、0 ~ 9 のランダムな整数をコンソールに出力してください。
+
+let random = Math.floor(Math.random() * 10);
+console.log(random);
